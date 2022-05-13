@@ -140,4 +140,17 @@ Si on est sur une branch 'second' nouvellement créée :```git push -u origin se
 Si on veut demander à merge notre branch second à la main, on peut faire une pull request sur Github.
 Le responsable de la main pourra alors accepter ou pas de le faire, en fonction des conflits où d'éventuelles erreurs. 
 
+### Issues
+
+On peut créer des issues pour suggérer des améliorations, signaler des problèmes, etc... 
+Elles ne contiennent pas de code. 
+Idéalement, ajouter un label à l'issue (bug, enhancement, etc...)
+Chaque issue à un '#' qui lui est attribuée.
+
+On peut faire un commit avec le # de l'issue, et Github créera une référence à l'issue.
+
+Si on est sur que le commit régle le problème posé par l'issue, on peut utiliser le mot clé 'fixes'.
+"This commit fixes #34" par exemple.
+
+L'issue sera automatiquement "closed".
 
