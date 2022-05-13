@@ -116,3 +116,28 @@ On ne veut ajouter que le commit1 à la branch main
 - on récupère l'id du commit1
 - On switch sur main
 - ```git cherry-pick idcommit1```
+
+
+# GitHub
+
+Pour cloner un repot distant, avec tout l'environement git qui va avec
+
+```git clone adressedurepot``` Créera un dossier avec le nom du repot. 
+
+```git remote -v``` affiche le nom du repot distant, et l'url 
+
+Cliquer sur fork sur Github pour copier un repot sur son profil.
+
+### Push & pull 
+
+
+```git push -u origin main``` Crée la branch main sur le repot distant et envoie le/les commits.
+
+Pour les prochains push juste besoin de faire : ```git push```
+
+Si on est sur une branch 'second' nouvellement créée :```git push -u origin second```
+
+Si on veut demander à merge notre branch second à la main, on peut faire une pull request sur Github
+Le responsable de la main pourra alors accepter ou pas de le faire, en fonction des conflits où d'éventuelles erreurs. 
+
+
