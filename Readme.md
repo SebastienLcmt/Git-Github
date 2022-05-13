@@ -137,7 +137,7 @@ Pour les prochains push juste besoin de faire : ```git push```
 
 Si on est sur une branch 'second' nouvellement créée :```git push -u origin second```
 
-Si on veut demander à merge notre branch second à la main, on peut faire une pull request sur Github
+Si on veut demander à merge notre branch second à la main, on peut faire une pull request sur Github.
 Le responsable de la main pourra alors accepter ou pas de le faire, en fonction des conflits où d'éventuelles erreurs. 
 
 
